@@ -1,0 +1,25 @@
+### gradle related ignores
+.gradle
+/build/
+**/build/
+
+### IntelliJ related ignores
+.idea/
+*.iml
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+
+ ### ignore Mac OS DS_Store
+ ._.DS_Store
+ **/.DS_Store
